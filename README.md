@@ -3,7 +3,7 @@ Official code repository for our accepted work "Gradient Driven Rewards to Guara
 
 > Xinyi Xu*, Lingjuan Lyu\*, Xingjun Ma, Chenglin Miao, Chuan Sheng Foo, Bryan Kian Hsiang Low
 >
-> Gradient Driven Rewards to Guarantee Fairness in Collaborative Machine Learning [Paper][https://proceedings.neurips.cc/paper/2021/hash/8682cc30db9c025ecd3fee433f8ab54c-Abstract.html]
+> Gradient Driven Rewards to Guarantee Fairness in Collaborative Machine Learning [Paper](https://proceedings.neurips.cc/paper/2021/hash/8682cc30db9c025ecd3fee433f8ab54c-Abstract.html)
 
 ### Set up environment using conda
 
