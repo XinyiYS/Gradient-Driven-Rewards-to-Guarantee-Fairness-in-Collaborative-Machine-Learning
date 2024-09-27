@@ -131,7 +131,7 @@ def train_model(model, loader, loss_fn, optimizer, device, E=1, **kwargs):
 
 			optimizer.step()
 
-		if 'scheduler' in kwargs: kwargs['scheduler'].step()
+	if 'scheduler' in kwargs: kwargs['scheduler'].step()
 	
 	return model
 
