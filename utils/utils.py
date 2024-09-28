@@ -123,15 +123,15 @@ def train_model(model, loader, loss_fn, optimizer, device, E=1, **kwargs):
 			else:
 				data, label = batch[0], batch[1]
 
-		data, label = data.to(device), label.to(device)
+			data, label = data.to(device), label.to(device)
 
-		optimizer.zero_grad()
-		pred = model(data)
-		loss_fn(pred, label).backward()
+			optimizer.zero_grad()
+			pred = model(data)
+			loss_fn(pred, label).backward()
 
-		optimizer.step()
+			optimizer.step()
 
-	if 'scheduler' in kwargs: kwargs['scheduler'].step()
+		if 'scheduler' in kwargs: kwargs['scheduler'].step()
 	
 	return model
 
